@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-weight: 800;
+    color: #063667;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-weight: 700;
+    color: #063667;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #063667;
+    color: #fff;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.card-body {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.card-body p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.card-body strong {
+    font-weight: 600;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+}
+
+.success {
+    background-color: #28a745;
+}
+
+.pending {
+    background-color: orange;
+}
+
+.failed {
+    background-color: red;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table th, 
+.table td {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.table th {
+    background-color: #063667;
+    color: white;
+    font-weight: 600;
+}
+
+.table td {
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.total-row td {
+    font-weight: bold;
+    background-color: #f1f3f5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-repay {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #FEDF2D;
+    border-radius: 8px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .table th, .table td {
+        font-size: 13px;
+    }
+}

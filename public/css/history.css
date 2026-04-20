@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #f5f7fb;
+    margin: 0;
+}
+
+.container-history {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* CARD */
+.history-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* HEADER */
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.history-code {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.history-date {
+    font-size: 13px;
+    color: #777;
+}
+
+/* STATUS */
+.status {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status.paid {
+    background: #e6f8ee;
+    color: #1a9b5a;
+}
+
+.status.pending {
+    background: #fff4e5;
+    color: #d98c00;
+}
+
+.status.failed {
+    background: #ffe5e5;
+    color: #d93025;
+}
+
+/* TOTAL */
+.history-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* BUTTON */
+.btn-view {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #FEDF2D; /* kuning */
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn-view:hover {
+    background: #e0a800; /* kuning lebih gelap saat hover */
+    color: #000;
+}
+
+/* EMPTY */
+.empty-state {
+    text-align: center;
+    padding: 60px;
+    color: #888;
+}
+
+.empty-state i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.item-sub {
+    font-size: 13px;
+    color: #777;
+}
+
+.history-card {
+    border-left: 4px solid #ffc107;
+}

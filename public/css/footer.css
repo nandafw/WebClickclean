@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&display=swap');
+
+.section-footer{
+    margin-top: 120px;
+    background-color: #063667;
+    padding-bottom: 60px;
+}
+
+.container-grd4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container-grd4 .box{
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.container-grd4 .box2{
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.container-grd4 .box3{
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.container-grd4 .box .bx{
+    position: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.container-grd4 .box h3{
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 22px;
+	color: #FFFFFF;
+    margin-top: auto; 
+}
+
+.container-grd4 .box2 h3{
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 22px;
+	color: #FFFFFF;
+    margin-top: auto; 
+}
+
+.container-grd4 .box3 h3{
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 22px;
+	color: #FFFFFF;
+    margin-top: auto; 
+}
+
+.container-grd4 .box p{
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 16px;
+	color: #ffffff9a;
+    margin-top: 10px; 
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list a {
+    text-decoration: none;
+    margin-left: -35px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.footer-list a:hover {
+    color: black;
+}
+
+.form_email{
+	box-sizing : border-box;
+	width: 70%;
+	padding: 10px;
+	font-size: 12pt;
+	margin-bottom: 20px;
+	font-family: Nunito Sans;
+}
+
+.button{
+    background: #FEDF2D;
+    padding: 11px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+}

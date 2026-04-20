@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&display=swap');
+
+li, a, button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+/* container product */
+#list-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* penting biar tidak ketarik space-between */
+    gap: 20px;
+    padding: 0 70px;
+    margin-top: 30px;
+}
+
+/* kolom 3 per baris */
+.col-md-4 {
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* card fix */
+.card {
+    width: 100%; /* FIX utama dari 70% */
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #063667;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #3e3e3e;
+}
+
+/* button */
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #FEDF2D;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #ffd54f;
+}
+
+/* wishlist */
+.wishlist-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.wishlist-btn i {
+    font-size: 16px;
+}
+
+.wishlist-btn:hover {
+    background-color: #dc3545;
+    color: #fff;
+    transition: 0.3s;
+}
